@@ -2080,8 +2080,10 @@
         "innerColor": [238,180,0],
         "uniqueName": "Nordic Bounty",
         "uniques": [
-            "[+1 Faith] from every [Water resource]",
-            "[+2 Food, +1 Production] from every [Snow]"
+            "No damage penalty for wounded units <for [All] units>",
+            "[+1 Faith, +2 Cultrure] from every [Water resource]",
+            "[+2 Food, +2 Production] from every [Snow]",
+            "[+10]% Strength"
         ],
         "cities": [
             "Oslo","Bergen","Trondheim","Stavanger","Tromso","Sarpsborg","Kristiansand","Fredrikstad","Tunsberg","Sandefjord",
