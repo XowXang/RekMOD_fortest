@@ -2081,7 +2081,7 @@
         "uniqueName": "Nordic Bounty",
         "uniques": [
             "No damage penalty for wounded units <for [All] units>",
-            "[+1 Faith, +2 Cultrure] from every [Water resource]",
+            "[+1 Faith, +2 Culture] from every [Water resource]",
             "[+2 Food, +2 Production] from every [Snow]",
             "[+10]% Strength"
         ],
