@@ -799,8 +799,8 @@
             {
                 "name": "Young Pioneers",
                 "uniques": [
-                    "[+1 Happiness, +2 Gold] from every [Workshop]",
-                    "[+1 Happiness, +2 Gold] from every [Factory]",
+                    "[+1 Happiness, +1 Production] from every [Workshop]",
+                    "[+1 Happiness, +1 Culture] from every [Factory]",
                     "[+1 Happiness, +1 Culture] from every [Solar Plant]",
                     "[+1 Happiness, +1 Culture] from every [Nuclear Plant]",
                     "[+1 Happiness, +1 Culture] from every [Hydro Plant]",
@@ -928,7 +928,7 @@
                 "name": "Communism",
                 "uniques": [
                     "[+5]% [Science] [in all cities]",
-                    "[+5]% [Production] [in all cities]",
+                    "[+10]% [Production] [in all cities]",
                     "[+10]% [Culture] [in all cities]",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
@@ -956,7 +956,7 @@
             {
                 "name": "Spaceflight Pioneers",
                 "uniques": [
-                    "Free [Great Scientist] appears",
+                    "Free [Great Engineer] appears",
                     "Free [Great Engineer] appears",
                     //need implement "Spaceflight Pioneers: May finish Spaceship parts with Great Engineers"
                     "Provides [-1] [Level 2 Ideology]",
