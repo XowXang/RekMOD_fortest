@@ -851,9 +851,9 @@
             {
                 "name": "Academy of Sciences",
                 "uniques": [
-                    "[+1 Happiness , +1 Culture, +1 Gold] from every [Observatory]",
-                    "[+2 Happiness , +1 Culture, +4 Gold, +2 Production] from every [Public School]",
-                    "[+1 Happiness , +1 Culture] from every [Research Lab]",
+                    "[+1 Happiness, +1 Culture, +1 Gold] from every [Observatory]",
+                    "[+2 Happiness, +1 Culture, +4 Gold, +2 Production] from every [Public School]",
+                    "[+1 Happiness, +1 Culture] from every [Research Lab]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
