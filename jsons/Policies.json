@@ -777,7 +777,7 @@
             {
                 "name": "Patriotic War",
                 "uniques": [
-                    "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+                    "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
                     "[+50]% XP gained from combat <for [non-[Air]] units>",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
@@ -799,11 +799,11 @@
             {
                 "name": "Young Pioneers",
                 "uniques": [
-                    "[+1 Happiness] from every [Workshop]",
-                    "[+1 Happiness] from every [Factory]",
-                    "[+1 Happiness] from every [Solar Plant]",
-                    "[+1 Happiness] from every [Nuclear Plant]",
-                    "[+1 Happiness] from every [Hydro Plant]",
+                    "[+1 Happiness, +2 Gold] from every [Workshop]",
+                    "[+1 Happiness, +2 Gold] from every [Factory]",
+                    "[+1 Happiness, +1 Culture] from every [Solar Plant]",
+                    "[+1 Happiness, +1 Culture] from every [Nuclear Plant]",
+                    "[+1 Happiness, +1 Culture] from every [Hydro Plant]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -813,7 +813,7 @@
             {
                 "name": "Party Leadership",
                 "uniques": [
-                    "[+2 Food, +2 Gold, +1 Production, +1 Science] [in all cities]",
+                    "[+2 Food, +4 Gold, +2 Production, +1 Science] [in all cities]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -829,7 +829,7 @@
                     "Gain a free [Granary] [in this city] <upon founding a city>",
                     "Gain a free [Library] [in this city] <upon founding a city>",
                     "Gain a free [Aqueduct] [in this city] <upon founding a city>",
-                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [2] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -839,6 +839,7 @@
                 "name": "Skyscrapers",
                 "uniques": [
                     "[Gold] cost of purchasing [All] buildings [-50]%",
+                    "[-20]% maintenance cost for buildings [in all cities]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -850,9 +851,9 @@
             {
                 "name": "Academy of Sciences",
                 "uniques": [
-                    "[+1 Happiness] from every [Observatory]",
-                    "[+1 Happiness] from every [Public School]",
-                    "[+1 Happiness] from every [Research Lab]",
+                    "[+1 Happiness , +1 Culture, +1 Gold] from every [Observatory]",
+                    "[+2 Happiness , +1 Culture, +4 Gold, +2 Production] from every [Public School]",
+                    "[+1 Happiness , +1 Culture] from every [Research Lab]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -864,8 +865,9 @@
             {
                 "name": "Cultural Revolution",
                 "uniques": [
-                    "[+10]% [Culture] [in all cities] <while the empire is happy>",
+                    "[+15]% [Culture] [in all cities] <while the empire is happy>",
                     "Empire enters golden age",
+                    "[+1 Culture] from every [Great Work]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -877,7 +879,8 @@
             {
                 "name": "Workers Faculties",
                 "uniques": [
-                    "[+25]% [Science] <in cities with a [Factory]>",
+                    "[+15]% [Science] <in cities with a [Factory]>",
+                    "[+15]% [Culture] <in cities with a [Factory]>",
                     "[+100]% Production when constructing [Factory] buildings [in all cities]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
@@ -893,6 +896,10 @@
                     "[+2 Production] [in all cities]",
                     "[+1 Production] from every [Mine]",
                     "[+1 Production] from every [Quarry]",
+                    "[+2 Production] from every [Academy]",
+                    "[+3 Production] from every [Manufactory]",
+                    "[+3 Production] from every [Dry Dock]",
+                    "[+2 Production] from every [Holy site]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -906,8 +913,9 @@
                 "uniques": [
                     "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
                     "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                    "[+2 Science, +2 Culture] from every [Military Academy]",
-                    "[+2 Science, +2 Culture] from every [Armory]",
+                    "[+1 Science, +3 Culture] from every [Military Academy]",
+                    "[+1 Science, +3 Culture] from every [Armory]",
+                    "[-10]% maintenance costs <for [All] units>",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -919,7 +927,9 @@
             {
                 "name": "Communism",
                 "uniques": [
-                    "[+10]% [Science] [in all cities]",
+                    "[+5]% [Science] [in all cities]",
+                    "[+5]% [Production] [in all cities]",
+                    "[+10]% [Culture] [in all cities]",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
@@ -934,6 +944,8 @@
                     "[+11 Food] from every [Land Trade Route (Food)]",
                     "[+11 Food] from every [Sea Trade Route (Food)]",
                     "[+11 Production] from every [Sea Trade Route (Production)]",
+                    "[+4 Production, +1 Gold] from every [Sea Trade Route (Gold)]",
+                    "[+4 Production, +1 Gold] from every [Land Trade Route (Gold)]",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
