@@ -169,7 +169,7 @@
         "culture": 5,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -179,7 +179,7 @@
         "happiness": 1,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -189,7 +189,7 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[10]% Food is carried over after population increases [in this city]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -200,7 +200,7 @@
         "happiness": 1,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -211,7 +211,7 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+15]% Production when constructing [All] buildings [in this city]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -221,7 +221,7 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+15]% [Gold] [in this city]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -229,7 +229,7 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+1 Food, +1 Production] from [Luxury resource] tiles [in this city]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
 
@@ -506,7 +506,7 @@
         "cost": 40,
         "maintenance": 1,
         "requiredTech": "Pottery",
-        "uniques": ["Hidden when religion is disabled"]
+        "uniques": ["Only available <when religion is enabled>"]
     },
     {
         "name": "Sauna",
@@ -519,7 +519,7 @@
         "uniques": [
             "All newly-trained [relevant] units [in this city] receive the [Sauna] promotion",
             "[+2 Culture] from [Lakes] tiles [in this city]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -531,7 +531,7 @@
         "cost": 40,
         "maintenance": 1,
         "requiredTech": "Pottery",
-        "uniques": ["Hidden when religion is disabled"]
+        "uniques": ["Only available <when religion is enabled>"]
     },
     {
         "name": "Temple of Artemis",
@@ -797,13 +797,16 @@
         "name": "Rova",
         "replaces": "Walls",
         "uniqueTo": "Madagascar",
-        "faith": 3,
-        "happiness": 1,
+        "faith": 2,
+        "food": 2,
         "cityStrength": 5,
         "cityHealth": 50,
         "hurryCostModifier": 25,
         "requiredTech": "Masonry",
-        "uniques": ["Destroyed when the city is captured"]
+        "uniques": [
+            "Can be purchased for [225] [Faith] [in all cities]",
+            "Destroyed when the city is captured"
+        ]
     },
     {
         "name": "The Pyramids",
@@ -1095,7 +1098,6 @@
         "name": "Mead Hall",
         "replaces": "Colosseum",
         "uniqueTo": "Franks",
-        "maintenance": 1,
         "happiness": 3,
         "culture": 1,
         "hurryCostModifier": 25,
@@ -1162,19 +1164,6 @@
         "requiredTech": "Philosophy"
     },
     {
-        "name": "Yeshiva",
-        "replaces": "Temple",
-        "uniqueTo": "Israel",
-        "cost": 120,
-        "food": 1,
-        "production": 1,
-        "faith": 2,
-        "requiredBuilding": "Shrine",
-        "maintenance": 2,
-        "hurryCostModifier": 25,
-        "requiredTech": "Philosophy"
-    },
-    {
         "name": "Stave Church",
         "replaces": "Temple",
         "uniqueTo": "Norway",
@@ -1221,6 +1210,27 @@
             "Cost increases by [30] per owned city"
         ],
         "requiredTech": "Philosophy"
+    },
+    {
+        "name": "King Soloman's Temple",
+        "replaces": "National College",
+        "uniqueTo": "Israel",
+        "cost": 125,
+        "science": 3,
+        "faith": 3,
+        "culture": 1,
+        "percentStatBonus": {"science": 50},
+        "isNationalWonder": true,
+        "requiredTech": "Philosophy",
+        "uniques": [
+            "Shown while unbuilable",
+            "Unbuildable",
+            "Can be purchased for [450] [Gold] [in all cities]",
+            "Can be purchased for [390] [Faith] [in all cities]",
+            "Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
+            "Gain [75] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>",
+            "Gain [75] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>"
+        ]
     },
     {
         "name": "The Oracle",
@@ -1385,9 +1395,9 @@
         "faith": 4,
         "isNationalWonder": true,
         "uniques": [
-            "Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>",
+            "Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
             "[+25]% Great Person generation [in this city]",
-            "[+2 Food, +1 Gold, +1 Production, +1 Faith] from every [Shrine]",
+            "[+1 Food, +1 Gold, +1 Production, +1 Faith] from every [Monument]",
             "Cost increases by [30] per owned city",
             "Comment [Has 1 Great Work of Writing Slot]"
         ],
@@ -1596,7 +1606,7 @@
         "uniques": [
             "Gain a free [Temple] [in this city]",
             "Free [Great Prophet] appears",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ],
         "requiredTech": "Theology",
         "quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
@@ -1610,7 +1620,7 @@
             "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "[+100]% Natural religion spread [in this city]",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "Can only be built <in [Holy] cities>"
         ],
         "requiredTech": "Theology",
@@ -1626,7 +1636,7 @@
         "uniques": [
             "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ],
         "requiredTech": "Theology",
         "isNationalWonder": true
@@ -1642,7 +1652,7 @@
             "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "[+100]% Natural religion spread [in this city]",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "Can only be built <in [Holy] cities>",
             "Gain a free [Cathedral] [in this city]",
             "Free [Great Prophet] appears"
@@ -1659,7 +1669,7 @@
             "Gain a free [Garden] [in this city]",
             "[3] free [Missionary] units appear",
             "Can only be built <in [Holy] cities>",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ],
         "requiredTech": "Theology",
         "quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky' - Gautama Buddha"
@@ -2313,7 +2323,7 @@
         "maintenance": 1,
         "hurryCostModifier": 25,
         "uniques": [
-            "Hidden when espionage is disabled",
+            "Only available <when espionage is enabled>",
             "[-25]% enemy spy effectiveness [in this city]"
         ],
         "requiredTech": "Banking"
@@ -2328,7 +2338,7 @@
         "hurryCostModifier": 25,
         "percentStatBonus": {"gold": 5,"production": 5},
         "uniques": [
-            "Hidden when espionage is disabled",
+            "Only available <when espionage is enabled>",
             "[-25]% enemy spy effectiveness [in this city]"
         ]
     },
@@ -3028,7 +3038,7 @@
         "maintenance": 1,
         "hurryCostModifier": 25,
         "uniques": [
-            "Hidden when espionage is disabled",
+            "Only available <when espionage is enabled>",
             "[-25]% enemy spy effectiveness [in this city]"
         ],
         "requiredBuilding": "Constabulary",
@@ -3158,7 +3168,7 @@
         "culture": 1,
         "isNationalWonder": true,
         "uniques": [
-            "Hidden when espionage is disabled",
+            "Only available <when espionage is enabled>",
             "Gain an extra spy",
             "Promotes all spies",
             "[-15]% enemy spy effectiveness [in this city]",
@@ -3374,7 +3384,7 @@
         "uniques": [
             "Enables construction of Spaceship parts",
             "Triggers a global alert upon completion",
-            "Hidden when [Scientific] Victory is disabled",
+            "Only available <when [Scientific] Victory is enabled>",
             "Cannot be hurried"
         ],
         "requiredTech": "Rocketry"
@@ -3383,7 +3393,7 @@
         "name": "Great Firewall",
         "isWonder": true,
         "uniques": [
-            "Hidden when espionage is disabled",
+            "Only available <when espionage is enabled>",
             "[-99]% enemy spy effectiveness [in this city]",
             "[-25]% enemy spy effectiveness [in all cities]"
         ],
@@ -3436,7 +3446,7 @@
         "requiredTech": "Globalization",
         "uniques": [
             "Triggers voting for the Diplomatic Victory",
-            "Hidden when [Diplomatic] Victory is disabled",
+            "Only available <when [Diplomatic] Victory is enabled>",
             "Triggers a global alert upon completion"
         ],
         "quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
@@ -3451,7 +3461,7 @@
             "Only available <when above [30] [Policies]>",
             "Triggers a global alert upon build start",
             "Triggers a Cultural Victory upon completion",
-            "Hidden when [Cultural] Victory is disabled",
+            "Only available <when [Cultural] Victory is enabled>",
             "Cannot be hurried"
         ]
     }
