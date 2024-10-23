@@ -2095,10 +2095,8 @@
         "innerColor": [238,180,0],
         "uniqueName": "Nordic Bounty",
         "uniques": [
-            "No damage penalty for wounded units <for [All] units>",
             "[+1 Faith, +1 Culture] from every [Water resource]",
             "[+2 Food, +1 Production] from every [Snow]",
-            "[+5]% Strength"
         ],
         "cities": [
             "Oslo","Bergen","Trondheim","Stavanger","Tromso","Sarpsborg","Kristiansand","Fredrikstad","Tunsberg","Sandefjord",
@@ -2917,11 +2915,12 @@
         "innerColor": [191,25,39],
         "uniqueName": "Westernization",
         "uniques": [
+            "No damage penalty for wounded units <for [All] units>",
             "[+1 Production, +1 Science] from every [Amphitheater]",
-            "[+1 Production, +1 Science] from every [Museum]",
-            "[+1 Production, +1 Science] from every [Opera House]",
-            "[+1 Production, +1 Science] from every [Broadcast Tower]",
-            "[+1 Production, +1 Science] from every [Great Work]",
+            "[+1 Production, +1 Culture] from every [Museum]",
+            "[+1 Production, +1 Culture] from every [Opera House]",
+            "[+1 Production, +2 Money] from every [Broadcast Tower]",
+            "[+1 Production, +1 Culture] from every [Great Work]",
             "[+50]% Production when constructing [Amphitheater] buildings [in all cities]",
             "[+50]% Production when constructing [Opera House] buildings [in all cities]",
             "[+50]% Production when constructing [Museum] buildings [in all cities]",
