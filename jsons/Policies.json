@@ -865,7 +865,7 @@
             {
                 "name": "Cultural Revolution",
                 "uniques": [
-                    "[+15]% [Culture] [in all cities] <while the empire is happy>",
+                    "[+10% [Culture] [in all cities] <while the empire is happy>",
                     "Empire enters golden age",
                     "[+1 Culture] from every [Great Work]",
                     "Provides [-1] [Level 1 Ideology]",
@@ -879,8 +879,8 @@
             {
                 "name": "Workers Faculties",
                 "uniques": [
-                    "[+15]% [Science] <in cities with a [Factory]>",
-                    "[+15]% [Culture] <in cities with a [Factory]>",
+                    "[+10]% [Science] <in cities with a [Factory]>",
+                    "[+10]% [Culture] <in cities with a [Factory]>",
                     "[+100]% Production when constructing [Factory] buildings [in all cities]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
@@ -929,7 +929,7 @@
                 "uniques": [
                     "[+5]% [Science] [in all cities]",
                     "[+10]% [Production] [in all cities]",
-                    "[+10]% [Culture] [in all cities]",
+                    "[+5]% [Culture] [in all cities]",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
