@@ -2097,7 +2097,7 @@
         "innerColor": [238,180,0],
         "uniqueName": "Nordic Bounty",
         "uniques": [
-            "[+1 Faith, +1 Culture] from every [Water resource]",
+            "[+1 Faith] from every [Water resource]",
             "[+2 Food, +1 Production] from every [Snow]",
         ],
         "cities": [
@@ -2414,14 +2414,14 @@
         "uniqueName": "Army with a State",
         "uniques": [
             "Comment [All Land Units may receive unique Promotions upon leveling up]",
-            "Comment [100% Yield from [Food] and [Production] from Trade Routes]",
+            "Comment [50% Yield from [Food] and [Production] from Trade Routes]",
             "[+1 Science, +1 Production] from every [Workshop]",
             "[+1 Science, +1 Production] from every [Factory]",
             "[Land] units gain the [Gehorsam] promotion <hidden from users>",
-            "[+100]% Yield from every [Land Trade Route (Food)] <hidden from users>",
-            "[+100]% Yield from every [Land Trade Route (Production)] <hidden from users>",
-            "[+100]% Yield from every [Sea Trade Route (Food)] <hidden from users>",
-            "[+100]% Yield from every [Sea Trade Route (Production)] <hidden from users>"
+            "[+50]% Yield from every [Land Trade Route (Food)] <hidden from users>",
+            "[+50]% Yield from every [Land Trade Route (Production)] <hidden from users>",
+            "[+50]% Yield from every [Sea Trade Route (Food)] <hidden from users>",
+            "[+50]% Yield from every [Sea Trade Route (Production)] <hidden from users>"
         ],
         "cities": [
             "Konigsberg","Berlin","Danzig","Memel","Stettin","Breslau","Leipzig","Potsdam","Hamburg","Magdeburg",
