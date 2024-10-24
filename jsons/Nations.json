@@ -283,7 +283,9 @@
         "outerColor": [234,0,0],
         "innerColor": [255,255,255],
         "uniqueName": "Diplomatic Marriage",
-        "uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."],
+        "uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
+                    "[+1 Production, +1 Culture] from every [Walls]",
+                    "[+1 Production, +1 Culture] from every [Castle]"],
         "cities": [
             "Vienna","Salzburg","Graz","Linz","Klagenfurt","Bregenz","Innsbruck","Kitzbühel","St. Pölten","Eisenstadt",
             "Villach","Zwettl","Traun","Wels","Dornbirn","Feldkirch","Amstetten","Bad Ischl","Wolfsberg","Kufstein",
@@ -918,8 +920,8 @@
         "innerColor": [239,236,148],
         "uniqueName": "City of Light",
         "uniques": [
-            "[+1 Culture] from every [Great Work]",
-            "[+1 Culture] [in capital]",
+            "[+1 Culture, +1 Science] from every [Great Work]",
+            "[+1 Culture, +2 Production] [in capital]",
             "[+15 Culture] [in capital] <after discovering [Acoustics]>"
         ],
         "cities": [
@@ -2412,12 +2414,14 @@
         "uniqueName": "Army with a State",
         "uniques": [
             "Comment [All Land Units may receive unique Promotions upon leveling up]",
-            "Comment [50% Yield from [Food] and [Production] from Trade Routes]",
+            "Comment [100% Yield from [Food] and [Production] from Trade Routes]",
+            "[+1 Science, +1 Production] from every [Workshop]",
+            "[+1 Science, +1 Production] from every [Factory]",
             "[Land] units gain the [Gehorsam] promotion <hidden from users>",
-            "[+50]% Yield from every [Land Trade Route (Food)] <hidden from users>",
-            "[+50]% Yield from every [Land Trade Route (Production)] <hidden from users>",
-            "[+50]% Yield from every [Sea Trade Route (Food)] <hidden from users>",
-            "[+50]% Yield from every [Sea Trade Route (Production)] <hidden from users>"
+            "[+100]% Yield from every [Land Trade Route (Food)] <hidden from users>",
+            "[+100]% Yield from every [Land Trade Route (Production)] <hidden from users>",
+            "[+100]% Yield from every [Sea Trade Route (Food)] <hidden from users>",
+            "[+100]% Yield from every [Sea Trade Route (Production)] <hidden from users>"
         ],
         "cities": [
             "Konigsberg","Berlin","Danzig","Memel","Stettin","Breslau","Leipzig","Potsdam","Hamburg","Magdeburg",
