@@ -21,12 +21,14 @@
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Tundra]"]
+        "uniques": ["[+1 Faith] from every [Tundra]",
+                    "[+1 Faith] from every [Quarry]"]
     },
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Desert]"]
+        "uniques": ["[+1 Faith] from every [Desert]",
+        "[+1 Faith] from every [Quarry]"]
     },
     {
         "name": "Divine Judgement",
@@ -41,7 +43,7 @@
         "name": "Earth Mother",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Faith] from every [Iron]",
+            "[+2 Faith, +1 Culture] from every [Iron]",
             "[+1 Faith] from every [Mine]"
         ]
     },
@@ -142,7 +144,8 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Production] from every [Fishing Boats]",
-            "[+1 Production] from every [Atoll]"
+            "[+1 Production] from every [Atoll]",
+            "[+1 Faith] from every [Mine]"
         ]
     },
     {
@@ -236,8 +239,8 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Production, +1 Faith] from every [Quarry]",
-            "[+1 Faith] from every [Marble]",
-            "[+1 Faith] from every [Obsidian]"
+            "[+2 Faith] from every [Marble]",
+            "[+2 Faith] from every [Obsidian]"
         ]
     },
     {
